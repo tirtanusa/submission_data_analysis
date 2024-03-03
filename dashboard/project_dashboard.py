@@ -96,7 +96,7 @@ def create_payment_method_df(df):
     return customers_payment_agg_df
 
 
-all_df = pd.read_csv('Project_data.csv')
+all_df = pd.read_csv('https://raw.githubusercontent.com/tirtanusa/submission_data_analysis/main/dashboard/Project_data.csv')
 
 st.header('Data Analysis Project : E-Commerce Public Dataset :flag-br: :shopping_trolley:',divider='red')
 
